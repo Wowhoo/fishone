@@ -1,0 +1,3 @@
+$.each(Object,function(key,value) {
+  return false;//此处用return false 会直接跳过整个each 循环 而不是 跳过一次循环；
+});
